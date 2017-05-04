@@ -382,7 +382,7 @@ public class DBFrame extends JFrame
 	}
 	public static Connection makeConnection() //DB연결 메소드
 	{
-		String url="jdbc:mysql://localhost/YOUR_TABLE_NAME";
+		String url="jdbc:mysql://localhost/YOUR_DATABASE_NAME";
 		String id="YOUR_ID";
 		String password="YOUR_PASSWORD";
 		Connection con=null;
